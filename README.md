@@ -36,7 +36,7 @@
 
 ### 1st step -> Flash ESP8266 
 
-1. Download source-codes from [HERE](https://github.com/levkovigor/STM32-OTA/Windows_Version/STM32-OTA-ESP8266)
+1. Download source-codes from [HERE](https://github.com/levkovigor/STM32-OTA-ESP8266-for-windows/STM32-OTA-ESP8266)
 2. Setup your WiFi and ESP8266 IPAddress to yours
 <img src="./images/ESP8266-setup.png" width="800"> 
 3. upload to ESP8266.   Don't know how to Flash ESP8266?  [HELP](https://github.com/esp8266/Arduino) version 2.4.2  
@@ -44,7 +44,7 @@
 ### 2nd step -> Arduino IDE setup
 
 #### -> For Arduino_STM32  [Repo link](https://github.com/rogerclarkmelbourne/Arduino_STM32)
-1. Copy "https://github.com/levkovigor/STM32-OTA/Windows_Version/stm32-ota.sh" to "C:\Users\{USERNAME}\AppData\Local\Arduino15\packages\STMicroelectronics\tools\STM32Tools\{VERSION}\"
+1. Copy "stm32-ota.sh" to "C:\Users\{USERNAME}\AppData\Local\Arduino15\packages\STMicroelectronics\tools\STM32Tools\{VERSION}\"
  
 2. Find the file 'C:\Users\{USERNAME}\AppData\Local\Arduino15\packages\STMicroelectronics\hardware\stm32\{VERSION}\platform.txt'. and add below lines to the end of 'platform.txt'    
 	> \# Upload using STM32 OTA over HTTPServer added by CSNOL        
