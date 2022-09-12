@@ -1,5 +1,5 @@
 
-# STM32-OTA on Arduino IDE 
+# STM32-OTA on Arduino IDE (version for Windows)
 
 -----
 ### With a ESP8266, It can upload sketch to STM32 series MCU on Arduino IDE without any wires.
