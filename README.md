@@ -43,7 +43,7 @@
 
 ### 2nd step -> Arduino IDE setup
 
-#### -> For Arduino_STM32  [Repo link](https://github.com/rogerclarkmelbourne/Arduino_STM32)
+#### -> For Arduino_STM32  [Repo link](https://github.com/stm32duino/Arduino_Core_STM32)
 1. Copy "stm32-ota.sh" to "C:\Users\{USERNAME}\AppData\Local\Arduino15\packages\STMicroelectronics\tools\STM32Tools\{VERSION}\"
  
 2. Find the file 'C:\Users\{USERNAME}\AppData\Local\Arduino15\packages\STMicroelectronics\hardware\stm32\{VERSION}\platform.txt'. and add below lines to the end of 'platform.txt'    
